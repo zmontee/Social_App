@@ -1,0 +1,54 @@
+.paper {
+    padding: 20px;
+}
+
+
+.imageWrapper {
+    text-align: center;
+    position: relative;
+    margin-left: 50px;
+}
+
+.profileImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.profileDetails {
+    text-align: center;
+}
+
+span, svg {
+    vertical-align: middle
+}
+
+.profileButton {
+    display: block !important;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+}
+
+hr {
+    border: none;
+    margin: 0 0 10px 0;
+}
+
+svg.button:hover {
+    cursor: pointer;
+}
+
+
+
+.buttons {
+    textAlign: center;
+}
+
+.a {
+    margin: 20px 10px !important;
+}
+
+.progress {
+    margin: 0 auto !important;
+}

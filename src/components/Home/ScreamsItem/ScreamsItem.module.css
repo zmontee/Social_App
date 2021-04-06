@@ -1,0 +1,34 @@
+.userImg {
+    min-width: 220px;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 20px;
+    height: 280px;
+}
+
+.content {
+    position: relative;
+    object-fit: cover;
+    padding: 25px;
+}
+
+.screamBody {
+    margin-top: 10px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    width: 50px;
+    position: absolute;
+    top: 220px;
+    right: 80px;
+}
+
+.screamBtns {
+    top: 220px;
+    position: absolute;
+}
