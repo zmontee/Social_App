@@ -35,7 +35,7 @@ if(token) {
     }
 }
 
-axios.defaults.baseURL = 'http://europe-west1-socialapp-8233c.cloudfunctions.net/api';
+axios.defaults.baseURL = 'https://europe-west1-socialapp-8233c.cloudfunctions.net/api';
 
 const App = props => {
 
