@@ -14,3 +14,15 @@ a {
   margin: 80px auto 0 auto;
   max-width: 1200px;
 }
+
+.lavalamp {
+  position: fixed;
+  width: 80px;
+  right: 50px;
+  bottom: 50px;
+  transition: 1s;
+}
+
+.lavalamp:hover {
+  transform: rotate(20deg);
+}

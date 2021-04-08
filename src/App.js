@@ -12,11 +12,13 @@ import {SET_AUTHENTICATED} from "./redux/types";
 import axios from "axios";
 import User from "./components/User/User";
 import {createMuiTheme, MuiThemeProvider} from "@material-ui/core";
+import AppIcon from "./assets/images/icon.png";
+import React from "react";
 
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: 'rgb(36, 151, 255)',
+            main: '#007ea8',
             contrastText: '#fff'
         }
     }
@@ -51,6 +53,7 @@ const App = props => {
                     <Route exact path='/user/:handle' component={User}/>
                     <Route exact path='/user/:handle/scream/:screamId' component={User}/>
                 </Switch>
+                <img src={AppIcon} alt="app icon" className="lavalamp" />
             </div>
         </div>
     </MuiThemeProvider>

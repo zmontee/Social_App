@@ -12,11 +12,11 @@ const styles = {
         textAlign: "center"
     },
     appIcon: {
-        width: 50,
+        width: 100,
         margin: '20 auto 20 auto'
     },
     pageTitle: {
-        margin: '10 auto 10 auto'
+        marginTop: 25
     },
     textField: {
         margin: '10 auto 10 auto'

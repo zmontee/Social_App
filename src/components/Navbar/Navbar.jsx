@@ -15,6 +15,7 @@ const Navbar = props => {
     const { user:{authenticated} } = props;
     return (
         <div>
+            img
             <AppBar>
                 <Toolbar className={s.content}>
                     {authenticated ?

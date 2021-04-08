@@ -12,14 +12,14 @@ const styles = {
         textAlign: "center"
     },
     appIcon: {
-        width: 50,
-        margin: '20 auto 20 auto'
+        width: 100,
+        margin: '20 auto'
     },
     pageTitle: {
-        margin: '10 auto 10 auto'
+        marginTop: 25
     },
     textField: {
-        margin: '10 auto 10 auto'
+        margin: '10 auto'
     },
     submitButton: {
         marginTop: 20,
@@ -40,7 +40,7 @@ class Login extends React.Component {
         super();
         this.state = {
             email: '',
-            password: '',
+            password: ''
         }
     }
 
